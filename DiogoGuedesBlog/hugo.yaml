@@ -15,6 +15,9 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Diogo Guedes"
+  hideFooter: true
+  footer:
+    hideCopyright: true
   description: "DevOps & Cloud Engineer specializing in Azure and Google Cloud Platform. Sharing insights on cloud infrastructure, automation, CI/CD, and modern deployment strategies"
   keywords:
     [
@@ -69,7 +72,7 @@ params:
     enabled: true # Enable profile mode for awesome homepage
     title: "Diogo Guedes"
     subtitle: "DevOps & Cloud Engineer | Azure & GCP Specialist 🚀"
-    imageUrl: "/images/diogo-profile.png" # Your professional profile photo
+    imageUrl: "images/diogo-profile.png" # Your professional profile photo
     imageWidth: 160
     imageHeight: 160
     imageTitle: "Diogo Guedes - DevOps Engineer"
@@ -137,14 +140,10 @@ menu:
       name: "🏷️ Tags"
       url: /tags/
       weight: 30
-    - identifier: archives
-      name: "📚 Archives"
-      url: /archives/
-      weight: 40
     - identifier: about
       name: "👤 About"
       url: /about/
-      weight: 50
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
