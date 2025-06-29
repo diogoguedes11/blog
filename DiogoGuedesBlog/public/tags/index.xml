@@ -2,99 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Diogo Guedes | DevOps Engineer</title>
-    <link>http://localhost:41609/tags/</link>
+    <link>http://localhost:33525/tags/</link>
     <description>Recent content in Tags on Diogo Guedes | DevOps Engineer</description>
     <image>
       <title>Diogo Guedes | DevOps Engineer</title>
-      <url>https://diogoguedes11.github.io/gh-deployment-workflow-/og-image.jpg</url>
-      <link>https://diogoguedes11.github.io/gh-deployment-workflow-/og-image.jpg</link>
+      <url>https://diogoguedes11.github.io/og-image.jpg</url>
+      <link>https://diogoguedes11.github.io/og-image.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Jun 2025 15:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:41609/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:33525/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Devops</title>
-      <link>http://localhost:41609/tags/devops/</link>
+      <link>http://localhost:33525/tags/devops/</link>
       <pubDate>Sun, 29 Jun 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/devops/</guid>
+      <guid>http://localhost:33525/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Gcp</title>
-      <link>http://localhost:41609/tags/gcp/</link>
+      <link>http://localhost:33525/tags/gcp/</link>
       <pubDate>Sun, 29 Jun 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/gcp/</guid>
+      <guid>http://localhost:33525/tags/gcp/</guid>
       <description></description>
     </item>
     <item>
       <title>Google-Cloud</title>
-      <link>http://localhost:41609/tags/google-cloud/</link>
+      <link>http://localhost:33525/tags/google-cloud/</link>
       <pubDate>Sun, 29 Jun 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/google-cloud/</guid>
+      <guid>http://localhost:33525/tags/google-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure-as-Code</title>
-      <link>http://localhost:41609/tags/infrastructure-as-code/</link>
+      <link>http://localhost:33525/tags/infrastructure-as-code/</link>
       <pubDate>Sun, 29 Jun 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/infrastructure-as-code/</guid>
+      <guid>http://localhost:33525/tags/infrastructure-as-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Terraform</title>
-      <link>http://localhost:41609/tags/terraform/</link>
+      <link>http://localhost:33525/tags/terraform/</link>
       <pubDate>Sun, 29 Jun 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/terraform/</guid>
+      <guid>http://localhost:33525/tags/terraform/</guid>
       <description></description>
     </item>
     <item>
       <title>Virtual-Machine</title>
-      <link>http://localhost:41609/tags/virtual-machine/</link>
+      <link>http://localhost:33525/tags/virtual-machine/</link>
       <pubDate>Sun, 29 Jun 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/virtual-machine/</guid>
+      <guid>http://localhost:33525/tags/virtual-machine/</guid>
       <description></description>
     </item>
     <item>
       <title>Vpc</title>
-      <link>http://localhost:41609/tags/vpc/</link>
+      <link>http://localhost:33525/tags/vpc/</link>
       <pubDate>Sun, 29 Jun 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/vpc/</guid>
+      <guid>http://localhost:33525/tags/vpc/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>http://localhost:41609/tags/deployment/</link>
+      <link>http://localhost:33525/tags/deployment/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/deployment/</guid>
+      <guid>http://localhost:33525/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:41609/tags/hugo/</link>
+      <link>http://localhost:33525/tags/hugo/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/hugo/</guid>
+      <guid>http://localhost:33525/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Papermod</title>
-      <link>http://localhost:41609/tags/papermod/</link>
+      <link>http://localhost:33525/tags/papermod/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/papermod/</guid>
+      <guid>http://localhost:33525/tags/papermod/</guid>
       <description></description>
     </item>
     <item>
       <title>Static-Site</title>
-      <link>http://localhost:41609/tags/static-site/</link>
+      <link>http://localhost:33525/tags/static-site/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/static-site/</guid>
+      <guid>http://localhost:33525/tags/static-site/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:41609/tags/tutorial/</link>
+      <link>http://localhost:33525/tags/tutorial/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:41609/tags/tutorial/</guid>
+      <guid>http://localhost:33525/tags/tutorial/</guid>
       <description></description>
     </item>
   </channel>

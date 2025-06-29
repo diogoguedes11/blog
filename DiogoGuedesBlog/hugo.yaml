@@ -34,8 +34,7 @@ params:
       "Cloud Architecture",
     ]
   author: "Diogo Guedes"
-  images:
-    ["https://diogoguedes11.github.io/gh-deployment-workflow-/og-image.jpg"]
+  images: ["https://diogoguedes11.github.io/og-image.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
