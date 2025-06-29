@@ -1,13 +1,35 @@
-# GA roadmap.sh project
+# Diogo Guedes Blog
 
-This is a basic GitHub Actions workflow project that demonstrates how to automatically deploy static content to GitHub Pages. 
+A personal blog built with Hugo and the PaperMod theme, demonstrating automated deployment to GitHub Pages using GitHub Actions.
 
-The workflow is triggered when changes are made to the `index.html` file and automatically deploys the updated website to GitHub Pages using continuous integration and deployment (CI/CD) principles.
+This repository showcases a complete CI/CD pipeline for a static blog, automatically deploying content changes to GitHub Pages when updates are pushed to the main branch.
 
-**Project URL:** https://roadmap.sh/projects/github-actions-deployment-workflow
+**Live Blog:** [https://diogoguedes11.github.io/gh-deployment-workflow-/](https://diogoguedes11.github.io/gh-deployment-workflow-/)
 
-## What this project does:
-- Automatically deploys static HTML content to GitHub Pages
-- Uses GitHub Actions for continuous deployment
-- Triggers deployment only when `index.html` is modified
-- Provides hands-on experience with CI/CD workflows
+**Original Project Inspiration:** https://roadmap.sh/projects/github-actions-deployment-workflow
+
+## What this blog features:
+- **Hugo Static Site Generator** with PaperMod theme
+- **Automated GitHub Actions deployment** to GitHub Pages
+- **Modern, responsive design** with dark/light mode toggle
+- **SEO optimized** with proper meta tags and structured data
+- **Fast loading** with minified assets and optimized images
+- **Blog posts** about web development, deployment, and tutorials
+
+## Project Structure
+```
+├── DiogoGuedesBlog/           # Hugo blog source
+│   ├── content/posts/         # Blog posts
+│   ├── themes/PaperMod/       # PaperMod theme
+│   ├── hugo.yaml             # Hugo configuration
+│   └── ...
+├── .github/workflows/         # GitHub Actions workflows
+├── index.html                # Simple static page (original)
+└── README.md                 # This file
+```
+
+## Technologies Used
+- **Hugo** - Fast static site generator
+- **PaperMod** - Clean, responsive Hugo theme
+- **GitHub Actions** - CI/CD for automated deployment
+- **GitHub Pages** - Free hosting for static sites
