@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://diogoguedes11.github.io/"
+title: "Diogo Guedes | DevOps Engineer"
 pagerSize: 5
 theme: PaperMod
 
@@ -14,12 +14,28 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  title: "Diogo Guedes"
+  description: "DevOps & Cloud Engineer specializing in Azure and Google Cloud Platform. Sharing insights on cloud infrastructure, automation, CI/CD, and modern deployment strategies"
+  keywords:
+    [
+      DevOps,
+      Cloud,
+      Azure,
+      GCP,
+      "Google Cloud",
+      "Microsoft Azure",
+      Kubernetes,
+      Docker,
+      Terraform,
+      CI/CD,
+      Infrastructure,
+      Automation,
+      SRE,
+      "Cloud Architecture",
+    ]
+  author: "Diogo Guedes"
+  images:
+    ["https://diogoguedes11.github.io/gh-deployment-workflow-/og-image.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -28,59 +44,55 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  UseHugOIIoToc: true
+  UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    disableHLJS: false # enable highlight.js for code syntax highlighting
+    disableFingerprinting: false
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "🚀 Diogo Guedes"
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true # Enable profile mode for awesome homepage
+    title: "Diogo Guedes"
+    subtitle: "DevOps & Cloud Engineer | Azure & GCP Specialist 🚀"
+    imageUrl: "/images/diogo-profile.png" # Your professional profile photo
+    imageWidth: 160
+    imageHeight: 160
+    imageTitle: "Diogo Guedes - DevOps Engineer"
     buttons:
-      - name: Posts
+      - name: "📝 Blog Posts"
         url: posts
-      - name: Tags
+      - name: "🏷️ Tags"
         url: tags
+      - name: "📂 Categories"
+        url: categories
+      - name: "💼 LinkedIn"
+        url: "https://www.linkedin.com/in/diogo-guedes11/"
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # home-info mode - disabled since we're using profile mode
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/diogoguedes11"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/diogo-guedes11/"
 
   # analytics:
   #   google:
@@ -96,8 +108,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/diogoguedes11/gh-deployment-workflow-/edit/main/DiogoGuedesBlog/content"
+    Text: "📝 Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -113,25 +125,36 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: posts
+      name: "📝 Posts"
+      url: /posts/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: categories
+      name: "📂 Categories"
+      url: /categories/
       weight: 20
-    # - identifier: example
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 30
+    - identifier: tags
+      name: "🏷️ Tags"
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: "📚 Archives"
+      url: /archives/
+      weight: 40
+    - identifier: about
+      name: "👤 About"
+      url: /about/
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: github-dark
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML in markdown

@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on ExampleSite</title>
-    <link>http://localhost:36791/tags/</link>
-    <description>Recent content in Tags on ExampleSite</description>
+    <title>Tags on Diogo Guedes | DevOps Engineer</title>
+    <link>http://localhost:40409/tags/</link>
+    <description>Recent content in Tags on Diogo Guedes | DevOps Engineer</description>
     <image>
-      <title>ExampleSite</title>
-      <url>http://localhost:36791/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:36791/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>Diogo Guedes | DevOps Engineer</title>
+      <url>https://diogoguedes11.github.io/gh-deployment-workflow-/og-image.jpg</url>
+      <link>https://diogoguedes11.github.io/gh-deployment-workflow-/og-image.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Jun 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:36791/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40409/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deployment</title>
-      <link>http://localhost:36791/tags/deployment/</link>
+      <link>http://localhost:40409/tags/deployment/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:36791/tags/deployment/</guid>
+      <guid>http://localhost:40409/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:36791/tags/hugo/</link>
+      <link>http://localhost:40409/tags/hugo/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:36791/tags/hugo/</guid>
+      <guid>http://localhost:40409/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Papermod</title>
-      <link>http://localhost:36791/tags/papermod/</link>
+      <link>http://localhost:40409/tags/papermod/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:36791/tags/papermod/</guid>
+      <guid>http://localhost:40409/tags/papermod/</guid>
       <description></description>
     </item>
     <item>
       <title>Static-Site</title>
-      <link>http://localhost:36791/tags/static-site/</link>
+      <link>http://localhost:40409/tags/static-site/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:36791/tags/static-site/</guid>
+      <guid>http://localhost:40409/tags/static-site/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:36791/tags/tutorial/</link>
+      <link>http://localhost:40409/tags/tutorial/</link>
       <pubDate>Sun, 29 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:36791/tags/tutorial/</guid>
+      <guid>http://localhost:40409/tags/tutorial/</guid>
       <description></description>
     </item>
   </channel>
