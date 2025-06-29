@@ -1,4 +1,4 @@
-baseURL: "https://diogoguedes11.github.io/"
+baseURL: "https://diogoguedes11.github.io/gh-deployment-workflow-/"
 title: "Diogo Guedes | DevOps Engineer"
 pagerSize: 5
 theme: PaperMod
@@ -34,7 +34,8 @@ params:
       "Cloud Architecture",
     ]
   author: "Diogo Guedes"
-  images: ["https://diogoguedes11.github.io/og-image.jpg"]
+  images:
+    ["https://diogoguedes11.github.io/gh-deployment-workflow-/og-image.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false

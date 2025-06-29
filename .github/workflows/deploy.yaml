@@ -59,8 +59,8 @@ jobs:
           cd DiogoGuedesBlog
           hugo \
             --gc \
-            --minify \
-            --baseURL "https://diogoguedes11.github.io/"
+            --minify \E
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
