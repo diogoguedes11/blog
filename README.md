@@ -32,4 +32,4 @@ This repository showcases a complete CI/CD pipeline for a static blog, automatic
 - **Hugo** - Fast static site generator
 - **PaperMod** - Clean, responsive Hugo theme
 - **GitHub Actions** - CI/CD for automated deployment
-- **GitHub Pages** - Free hosting for static sites
+- **GitHub Pages** - Free hosting for static sites# my-http-webserver-python
